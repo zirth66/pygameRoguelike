@@ -25,4 +25,4 @@ COLOR_DEFAULT_BG = COLOR_GREY
 S_PLAYER = pygame.image.load(os.path.join('data', 'Minitaur_32x32.png'))
 S_ENEMY = pygame.image.load(os.path.join('data', 'Hydra_32x32.png'))
 S_WALL = pygame.image.load(os.path.join('data', 'StoneWall_32x32.png'))
-S_FLOOR = pygame.image.load(os.path.join('data', 'StoneFloor_32x32.png'))
+S_FLOOR = pygame.image.load(os.path.join('data', 'tileFloor.png'))

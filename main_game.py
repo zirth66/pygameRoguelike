@@ -2,6 +2,7 @@
 import libtcodpy as libtcod
 import pygame
 
+#1241-1282 IN __init__.py commented out due to error
 
 #game files
 import constants
