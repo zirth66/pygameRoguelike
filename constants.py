@@ -1,4 +1,5 @@
 import pygame
+import os
 
 pygame.init()
 
@@ -21,7 +22,7 @@ COLOR_GREY = (100, 100, 100)
 COLOR_DEFAULT_BG = COLOR_GREY
 
 #SPRITES
-S_PLAYER = pygame.image.load("data\Minitaur_32x32.png")
-S_ENEMY = pygame.image.load("data\Hydra_32x32.png")
-S_WALL = pygame.image.load("data\StoneWall_32x32.png")
-S_FLOOR = pygame.image.load("data\StoneFloor_32x32.png")
+S_PLAYER = pygame.image.load(os.path.join('data', 'Minitaur_32x32.png'))
+S_ENEMY = pygame.image.load(os.path.join('data', 'Hydra_32x32.png'))
+S_WALL = pygame.image.load(os.path.join('data', 'StoneWall_32x32.png'))
+S_FLOOR = pygame.image.load(os.path.join('data', 'StoneFloor_32x32.png'))
